@@ -1,0 +1,33 @@
+# One-off: copies a finished film into media/films/ (GitHub refuses files over 100 MB,
+# and the edit room cannot push here, so GitHub fetches the file itself and checks it).
+# Remove this file once the film is in place.
+name: Add a film to media/films
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/fetch-film.yml']
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download the film and check it byte for byte
+        env:
+          URL: https://d2jqrm6oza8nb6.cloudfront.net/datasets/cd528365-e629-4ce4-b904-9ba7188f64bd.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYjljOWUzMGYzNzg4NTAzYiIsImJ1Y2tldCI6InJ1bndheS1kYXRhc2V0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTc4NzAyM30.nT4v5b3zv8qQ07YHx-rVJWImUZG_9hdWmhga9O_S2Jw
+          FILE: media/films/I-am-willing_Mark-1_Instagram-Reel_1080x1920_24p_v21.mp4
+          MD5: dcf22170c2221c7e5147b1f85fb7d864
+        run: |
+          mkdir -p media/films
+          curl -fsSL --retry 3 -o "$FILE" "$URL"
+          echo "$MD5  $FILE" | md5sum -c -
+          ls -l "$FILE"
+      - name: Commit the film
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add media/films
+          git commit -m "Add film 1, I am willing (Mark 1:40-42), Instagram Reel, version 21"
+          git pull --rebase origin main
+          git push origin HEAD:main

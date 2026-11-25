@@ -90,4 +90,5 @@ Already in `bank/verse_bank.json` (never post the same verse twice in 60 days): 
 - `plan/queue.json`: every post in order, with its pictures, alt text, caption and kind.
 - `bank/verse_bank.json`: every verse used, with where its BSB wording was checked.
 - `log/scheduled.json`: what has gone into Buffer. `log/results.csv`: the numbers for each post. `log/learning.md`: what has been learned and every change made.
+- `media/films/`: the finished films, kept here so they have a lasting address. They are not in the queue and the task never schedules them (rule 7); Graham decides when a film is posted. A copy under 50 MB is kept here (GitHub refuses files over 100 MB); the full-quality masters stay in Runway.
 - `tools/`: the scripts that draw the posts in the book's style (navy `#13233f`, gold `#d6b668`, cream `#f5f0e4`; Gelasio and Carlito).
