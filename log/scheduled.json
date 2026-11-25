@@ -4,80 +4,77 @@
   "buffer_post_id": "6b072e8bf5be12bac95f8b4b",
   "kind": "story",
   "slot": "morning",
-  "due_at": "2026-11-26T08:00:00-05:00",
-  "status": "scheduled",
-  "note": "moved to 08:00 US Eastern on 26 Nov 2026 (Graham's single daily time)"
+  "due_at": "2026-11-26T07:33:23+11:00",
+  "status": "sent",
+  "note": "published at once at Graham's request, 26 Nov 07:33 Melbourne; https://www.instagram.com/stories/howtoprayforthesick/4038433387719168611"
  },
  {
   "queue_id": "week-1-when-you-wonder-if-he-is-willing",
   "buffer_post_id": "6b072e8ba8c1747ec750b3d7",
   "kind": "carousel",
   "slot": "evening",
-  "due_at": "2026-11-26T08:00:00-05:00",
-  "status": "scheduled",
-  "note": "moved to 08:00 US Eastern on 26 Nov 2026 (Graham's single daily time)"
+  "due_at": "2026-11-26T07:33:39+11:00",
+  "status": "sent",
+  "note": "published at once at Graham's request, 26 Nov 07:33 Melbourne; https://www.instagram.com/p/DgLZdhHnXK9/"
  },
  {
   "queue_id": "story-psalm-103-3",
   "buffer_post_id": "6b073053f5be12bac9607238",
   "kind": "story",
   "slot": "morning",
-  "due_at": "2026-11-27T08:00:00-05:00",
+  "due_at": "2026-11-26T17:10:00+11:00",
   "status": "scheduled",
-  "note": "moved to 08:00 US Eastern on 26 Nov 2026 (Graham's single daily time)"
+  "note": "one-off 17:10 Melbourne at Graham's request"
  },
  {
   "queue_id": "psalm-103-3",
   "buffer_post_id": "6b073058f5be12bac96079b4",
   "kind": "verse",
   "slot": "evening",
-  "due_at": "2026-11-27T08:00:00-05:00",
+  "due_at": "2026-11-26T17:10:00+11:00",
   "status": "scheduled",
-  "note": "moved to 08:00 US Eastern on 26 Nov 2026 (Graham's single daily time)"
+  "note": "one-off 17:10 Melbourne at Graham's request"
  },
  {
   "queue_id": "story-exodus-15-26",
   "buffer_post_id": "6b07305cf0d53020a1ecffba",
   "kind": "story",
   "slot": "morning",
-  "due_at": "2026-11-28T08:00:00-05:00",
+  "due_at": "2026-11-26T08:00:00-05:00",
   "status": "scheduled",
-  "note": "moved to 08:00 US Eastern on 26 Nov 2026 (Graham's single daily time)"
+  "note": "08:00 Eastern from here on"
  },
  {
   "queue_id": "exodus-15-26",
   "buffer_post_id": "6b073062f0d53020a1ed065f",
   "kind": "verse",
   "slot": "evening",
-  "due_at": "2026-11-28T08:00:00-05:00",
+  "due_at": "2026-11-26T08:00:00-05:00",
   "status": "scheduled",
-  "note": "moved to 08:00 US Eastern on 26 Nov 2026 (Graham's single daily time)"
+  "note": "08:00 Eastern from here on"
  },
  {
   "queue_id": "story-matthew-14-14",
   "buffer_post_id": "6b073066c06d6883dad730dc",
   "kind": "story",
   "slot": "morning",
-  "due_at": "2026-11-29T08:00:00-05:00",
-  "status": "scheduled",
-  "note": "moved to 08:00 US Eastern on 26 Nov 2026 (Graham's single daily time)"
+  "due_at": "2026-11-27T08:00:00-05:00",
+  "status": "scheduled"
  },
  {
   "queue_id": "matthew-14-14",
   "buffer_post_id": "6b073067827512a7c4cd4cf1",
   "kind": "verse",
   "slot": "evening",
-  "due_at": "2026-11-29T08:00:00-05:00",
-  "status": "scheduled",
-  "note": "moved to 08:00 US Eastern on 26 Nov 2026 (Graham's single daily time)"
+  "due_at": "2026-11-27T08:00:00-05:00",
+  "status": "scheduled"
  },
  {
   "queue_id": "story-jeremiah-17-14",
   "buffer_post_id": "6b073067827512a7c4cd4d3f",
   "kind": "story",
   "slot": "morning",
-  "due_at": "2026-11-30T08:00:00-05:00",
-  "status": "scheduled",
-  "note": "moved to 08:00 US Eastern on 26 Nov 2026 (Graham's single daily time)"
+  "due_at": "2026-11-28T08:00:00-05:00",
+  "status": "scheduled"
  }
 ]
