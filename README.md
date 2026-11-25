@@ -8,13 +8,15 @@ Posts for the Instagram account **howtoprayforthesick** (Graham Marsland, *How t
 |---|---|
 | Buffer organisation | "My organization", `6b071ecb19a2723798376b26` (Free plan: at most 10 scheduled posts at a time) |
 | Buffer channel | howtoprayforthesick (Instagram, professional), `6b0720e88541f09ecba09267` |
-| Buffer time zone | Australia/Melbourne (UTC+11 until 4 April 2027, then UTC+10; always take the offset from `get_account`) |
+| Buffer time zone | Australia/Melbourne (the Buffer account's zone). **The posting slots are US Eastern time (America/New_York)**: work out each `dueAt` from the Eastern time with Python `zoneinfo`, so daylight saving in either country is handled; any correct offset is accepted by Buffer |
 | Website | howtoprayforthesickandexpectamiracle.com, Vercel team "Infinite Intelligence" `team_j1aE7VP1Hs5M8dmdQ752dnbg` |
 | Picture addresses | `https://raw.githubusercontent.com/gmarsland/howtopray-instagram/main/<path>` |
 
 ## What Graham decided (25 and 26 November 2026)
 
-1. **Two posts a day, rising as results allow:** a Story in the morning (07:30 Melbourne) and a feed post in the evening (19:30). More only when the numbers show it helps (see "When to change"), and never more than three a day without Graham's say.
+1. **Two posts a day for a US audience, rising as results allow** (Graham, 26 November 2026: "focus on the US timezone"): a Story at **09:00** and a feed post at **20:00**, US Eastern time (America/New_York). That is 06:00 and 17:00 on the US west coast, and 01:00 and 12:00 the next day in Melbourne while both countries keep their current clocks. More only when the numbers show it helps (see "When to change"), and never more than three a day without Graham's say.
+   - Why these numbers (research, 26 November 2026): Buffer's study of 2.1 million posts found reach per post about 12% higher at 3 to 5 feed posts a week than at 1 to 2, 18% higher at 6 to 9 and 24% higher at 10 or more, with follower growth rising the same way; so one feed post every day (7 a week). Stories mostly reach people who already follow, so one a day until the account has followers. The 2026 timing studies disagree (Buffer: Thursday 9 am, Wednesday 12 pm and 6 pm; Metricool: 8 pm Monday and Tuesday; Later: 5 am), so the account tests its own times (below).
+   - **A second Story a day** (13:00 Eastern: the day's feed picture with the prayer link) once the account passes 200 followers, because Stories are seen by followers.
 2. **Nothing posts until the website is live.**
 3. **Scripture posts and wording Graham has approved go out by themselves.** The five prayer cards are approved as written. **Any new prayer in Graham's voice is saved only as a Buffer draft, for his OK.** Never schedule one.
 4. Remember what works and lean towards it.
@@ -65,9 +67,9 @@ A Story has no caption. It carries a link sticker to `https://howtoprayforthesic
 5. **Change only by these rules, one change at a time, and write each change and its reason in `log/learning.md`:**
    - After 14 sent feed posts: put the stronger kind (carousel or verse) first in the unscheduled queue, two of every three feed posts.
    - Topics: move unscheduled posts whose topic is like the best three earlier in the queue.
-   - Times: after 14 days, try one other feed time for 7 days (12:30, then 07:30 for the feed and 19:30 for the Story). Keep the better one.
-   - **Three a day:** add a midday feed post (12:30) when the last 14 days' average reach per feed post is at least that of the 14 days before, and the unscheduled queue holds at least 10 days of material. Never more than three a day.
-6. **Top up Buffer.** Keep no more than 9 posts scheduled. Take the next unscheduled items from `plan/queue.json` in order and schedule each at the next free slot for its kind (Story 07:30; feed 19:30; midday feed 12:30 if switched on), Melbourne time, never in the past. Use `create_post` with `schedulingType: automatic`, `mode: customScheduled`, the `dueAt`, the caption, every image with its alt text, and `metadata.instagram`: `type` "carousel" items and verse posts as `post` with `shouldShareToFeed: true`; Stories as `story` with `shouldShareToFeed: false` and `link` set. Record each in `log/scheduled.json`.
+   - Times: after 14 days, try the feed at 12:00 Eastern for 7 days, then 09:00 Eastern for 7 days, each against 20:00. Keep the one with the best reach per post. Weekends are judged against weekends.
+   - **Three a day:** add a second daily feed post (12:00 Eastern, or 20:00 if the main feed has moved to 12:00) when the last 14 days' average reach per feed post is at least that of the 14 days before, and the unscheduled queue holds at least 10 days of material. Never more than three a day.
+6. **Top up Buffer.** Keep no more than 9 posts scheduled. Take the next unscheduled items from `plan/queue.json` in order and schedule each at the next free slot for its kind (Story 09:00; feed 20:00; second feed 12:00 if switched on), US Eastern time, never in the past. The queue is in day order: each day's Story is the verse of that day's feed post, so a Story and its feed post share the same date in Eastern time. Use `create_post` with `schedulingType: automatic`, `mode: customScheduled`, the `dueAt`, the caption, every image with its alt text, and `metadata.instagram`: `type` "carousel" items and verse posts as `post` with `shouldShareToFeed: true`; Stories as `story` with `shouldShareToFeed: false` and `link` set. Record each in `log/scheduled.json`.
 7. **Keep the queue full.** When fewer than 8 items are unscheduled, add 4 new verse posts:
    - Choose healing verses not yet in the bank (the list below, or others on healing, prayer for the sick, or the faithfulness of God).
    - Check each against the BSB as in rule 1, and write a title "for the moment" (for example "When you are waiting for results"), never a promise.
@@ -79,7 +81,9 @@ A Story has no caption. It carries a link sticker to `https://howtoprayforthesic
 
 ## Healing verses not yet used (check each before use)
 
-Psalm 147:3 · Psalm 41:3 · Proverbs 4:20–22 · Malachi 4:2 · Matthew 4:23 · Matthew 8:16–17 · Matthew 9:35 · Matthew 14:14 · Matthew 15:30–31 · Mark 5:34 · Mark 6:56 · Luke 4:40 · Luke 6:19 · Luke 8:50 · Luke 9:11 · John 14:13–14 · Acts 3:16 · Acts 5:16 · Hebrews 13:8 · 3 John 1:2 · Mark 11:24 (its BSB wording was not confirmed on 25 November 2026)
+Psalm 41:3 · Matthew 4:23 · Matthew 9:35 · Matthew 15:30–31 · Mark 6:56 · Luke 4:40 · Luke 8:50 · Luke 9:11 · John 14:13–14 · Acts 3:16 · Acts 5:16 · Jeremiah 1:12 · Romans 8:11 · 2 Corinthians 1:20 · 1 John 5:14–15
+
+Already in `bank/verse_bank.json` (never post the same verse twice in 60 days): check the bank before choosing.
 
 ## Files
 

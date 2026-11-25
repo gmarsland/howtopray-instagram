@@ -1,12 +1,210 @@
 [
-  {"slug": "exodus-15-26", "title": "When you need to|know who He is", "verse": "For I am the LORD who heals you.", "ref": "From Exodus 15:26", "checked": true, "source": "heartlight.org BSB, 25 Nov 2026"},
-  {"slug": "psalm-103-3", "title": "When you need to|remember what He does", "verse": "He who forgives all your iniquities and heals all your diseases", "ref": "Psalm 103:3", "checked": true, "source": "biblehub.com BSB, 25 Nov 2026 (closing comma of the verse left off)"},
-  {"slug": "isaiah-53-5", "title": "When you look|at the cross", "verse": "But He was pierced for our transgressions, He was crushed for our iniquities; the punishment that brought us peace was upon Him, and by His stripes we are healed.", "ref": "Isaiah 53:5", "checked": true, "source": "biblestudytools.com/bsb, 25 Nov 2026"},
-  {"slug": "jeremiah-17-14", "title": "When you are the|one who is sick", "verse": "Heal me, O LORD, and I will be healed; save me, and I will be saved, for You are my praise.", "ref": "Jeremiah 17:14", "checked": true, "source": "biblestudytools.com/bsb and heartlight.org, 25 Nov 2026"},
-  {"slug": "psalm-107-20", "title": "When you need|His word", "verse": "He sent forth His word and healed them; He rescued them from the Pit.", "ref": "Psalm 107:20", "checked": true, "source": "biblestudytools.com/bsb and heartlight.org, 25 Nov 2026"},
-  {"slug": "acts-10-38", "title": "When you wonder what|Jesus came to do", "verse": "How God anointed Jesus of Nazareth with the Holy Spirit and with power, and how Jesus went around doing good and healing all who were oppressed by the devil, because God was with Him.", "ref": "Acts 10:38", "checked": true, "source": "biblehub.com BSB context, 25 Nov 2026 (first word capitalised)"},
-  {"slug": "psalm-30-2", "title": "When healing|comes", "verse": "O LORD my God, I cried to You for help, and You healed me.", "ref": "Psalm 30:2", "checked": true, "source": "biblestudytools.com/bsb, studylight BSB, biblehub, 25 Nov 2026"},
-  {"slug": "james-5-14-15", "title": "When someone|asks you to pray", "verse": "Is any one of you sick? He should call the elders of the church to pray over him and anoint him with oil in the name of the Lord. And the prayer offered in faith will restore the one who is sick.", "ref": "From James 5:14–15", "checked": true, "source": "biblehub.com BSB context and heartlight.org, 25 Nov 2026"},
-  {"slug": "mark-16-18", "title": "Before you pray|for someone", "verse": "They will lay their hands on the sick, and they will be made well.", "ref": "From Mark 16:18", "checked": true, "source": "biblehub.com BSB, 25 Nov 2026 (first word capitalised)"},
-  {"slug": "mark-11-24", "title": "When you|are asking", "verse": "", "ref": "Mark 11:24", "checked": false, "source": "BSB wording not confirmed on 25 Nov 2026; check before use"}
+ {
+  "slug": "exodus-15-26",
+  "title": "When you need to|know who He is",
+  "verse": "For I am the LORD who heals you.",
+  "ref": "From Exodus 15:26",
+  "checked": true,
+  "source": "heartlight.org BSB, 25 Nov 2026"
+ },
+ {
+  "slug": "psalm-103-3",
+  "title": "When you need to|remember what He does",
+  "verse": "He who forgives all your iniquities and heals all your diseases",
+  "ref": "Psalm 103:3",
+  "checked": true,
+  "source": "biblehub.com BSB, 25 Nov 2026 (closing comma of the verse left off)"
+ },
+ {
+  "slug": "isaiah-53-5",
+  "title": "When you look|at the cross",
+  "verse": "But He was pierced for our transgressions, He was crushed for our iniquities; the punishment that brought us peace was upon Him, and by His stripes we are healed.",
+  "ref": "Isaiah 53:5",
+  "checked": true,
+  "source": "biblestudytools.com/bsb, 25 Nov 2026"
+ },
+ {
+  "slug": "jeremiah-17-14",
+  "title": "When you are the|one who is sick",
+  "verse": "Heal me, O LORD, and I will be healed; save me, and I will be saved, for You are my praise.",
+  "ref": "Jeremiah 17:14",
+  "checked": true,
+  "source": "biblestudytools.com/bsb and heartlight.org, 25 Nov 2026"
+ },
+ {
+  "slug": "psalm-107-20",
+  "title": "When you need|His word",
+  "verse": "He sent forth His word and healed them; He rescued them from the Pit.",
+  "ref": "Psalm 107:20",
+  "checked": true,
+  "source": "biblestudytools.com/bsb and heartlight.org, 25 Nov 2026"
+ },
+ {
+  "slug": "acts-10-38",
+  "title": "When you wonder what|Jesus came to do",
+  "verse": "How God anointed Jesus of Nazareth with the Holy Spirit and with power, and how Jesus went around doing good and healing all who were oppressed by the devil, because God was with Him.",
+  "ref": "Acts 10:38",
+  "checked": true,
+  "source": "biblehub.com BSB context, 25 Nov 2026 (first word capitalised)"
+ },
+ {
+  "slug": "psalm-30-2",
+  "title": "When healing|comes",
+  "verse": "O LORD my God, I cried to You for help, and You healed me.",
+  "ref": "Psalm 30:2",
+  "checked": true,
+  "source": "biblestudytools.com/bsb, studylight BSB, biblehub, 25 Nov 2026"
+ },
+ {
+  "slug": "james-5-14-15",
+  "title": "When someone|asks you to pray",
+  "verse": "Is any one of you sick? He should call the elders of the church to pray over him and anoint him with oil in the name of the Lord. And the prayer offered in faith will restore the one who is sick.",
+  "ref": "From James 5:14–15",
+  "checked": true,
+  "source": "biblehub.com BSB context and heartlight.org, 25 Nov 2026"
+ },
+ {
+  "slug": "mark-16-18",
+  "title": "Before you pray|for someone",
+  "verse": "They will lay their hands on the sick, and they will be made well.",
+  "ref": "From Mark 16:18",
+  "checked": true,
+  "source": "biblehub.com BSB, 25 Nov 2026 (first word capitalised)"
+ },
+ {
+  "slug": "mark-11-24",
+  "title": "When you ask",
+  "verse": "Therefore I tell you, whatever you ask for in prayer, believe that you have received it, and it will be yours.",
+  "ref": "Mark 11:24",
+  "checked": true,
+  "source": "biblehub.com/bsb, 26 Nov 2026"
+ },
+ {
+  "slug": "jeremiah-30-17",
+  "title": "When you are waiting|to be well",
+  "verse": "But I will restore your health and heal your wounds, declares the LORD.",
+  "ref": "From Jeremiah 30:17",
+  "checked": true,
+  "source": "biblehub.com/bsb, 26 Nov 2026; partial verse"
+ },
+ {
+  "slug": "proverbs-4-20-22",
+  "title": "Keep His words|close",
+  "verse": "My son, pay attention to my words; incline your ear to my sayings. Do not lose sight of them; keep them within your heart. For they are life to those who find them, and health to the whole body.",
+  "ref": "Proverbs 4:20–22",
+  "checked": true,
+  "source": "biblehub.com/bsb, 26 Nov 2026"
+ },
+ {
+  "slug": "3-john-1-2",
+  "title": "When you pray|for a friend",
+  "verse": "Beloved, I pray that in every way you may prosper and enjoy good health, as your soul also prospers.",
+  "ref": "3 John 1:2",
+  "checked": true,
+  "source": "biblehub.com/bsb, 26 Nov 2026"
+ },
+ {
+  "slug": "matthew-8-17",
+  "title": "What He carried|for you",
+  "verse": "He took up our infirmities and carried our diseases.",
+  "ref": "From Matthew 8:17",
+  "checked": true,
+  "source": "biblehub.com/bsb, 26 Nov 2026; partial verse"
+ },
+ {
+  "slug": "matthew-14-14",
+  "title": "When you wonder|if He cares",
+  "verse": "When He stepped ashore and saw a large crowd, He had compassion on them and healed their sick.",
+  "ref": "Matthew 14:14",
+  "checked": true,
+  "source": "biblehub.com/bsb, 26 Nov 2026"
+ },
+ {
+  "slug": "hebrews-13-8",
+  "title": "When you wonder|if He has changed",
+  "verse": "Jesus Christ is the same yesterday and today and forever.",
+  "ref": "Hebrews 13:8",
+  "checked": true,
+  "source": "biblehub.com/bsb, 26 Nov 2026"
+ },
+ {
+  "slug": "matthew-10-8",
+  "title": "When you are sent",
+  "verse": "Heal the sick, raise the dead, cleanse the lepers, drive out demons. Freely you have received; freely give.",
+  "ref": "Matthew 10:8",
+  "checked": true,
+  "source": "biblehub.com/bsb, 26 Nov 2026"
+ },
+ {
+  "slug": "john-14-12",
+  "title": "When you feel too ordinary|to pray for the sick",
+  "verse": "Truly, truly, I tell you, whoever believes in Me will also do the works that I am doing. He will do even greater things than these, because I am going to the Father.",
+  "ref": "John 14:12",
+  "checked": true,
+  "source": "biblehub.com/bsb, 26 Nov 2026"
+ },
+ {
+  "slug": "jeremiah-33-3",
+  "title": "When you do not know|where else to turn",
+  "verse": "Call to Me, and I will answer and show you great and unsearchable things you do not know.",
+  "ref": "Jeremiah 33:3",
+  "checked": true,
+  "source": "biblehub.com/bsb, 26 Nov 2026"
+ },
+ {
+  "slug": "numbers-23-19",
+  "title": "When you need to know|He keeps His word",
+  "verse": "God is not a man, that He should lie, or a son of man, that He should change His mind.",
+  "ref": "From Numbers 23:19",
+  "checked": true,
+  "source": "biblehub.com/bsb, 26 Nov 2026; partial verse"
+ },
+ {
+  "slug": "isaiah-55-11",
+  "title": "When you speak|His word",
+  "verse": "So My word that proceeds from My mouth will not return to Me empty, but it will accomplish what I please, and it will prosper where I send it.",
+  "ref": "Isaiah 55:11",
+  "checked": true,
+  "source": "biblehub.com/bsb, 26 Nov 2026"
+ },
+ {
+  "slug": "mark-5-34",
+  "title": "When you reach out|to Him",
+  "verse": "“Daughter,” said Jesus, “your faith has healed you. Go in peace and be free of your affliction.”",
+  "ref": "Mark 5:34",
+  "checked": true,
+  "source": "biblehub.com/bsb, 26 Nov 2026"
+ },
+ {
+  "slug": "malachi-4-2",
+  "title": "When you are waiting|for the morning",
+  "verse": "But for you who fear My name, the sun of righteousness will rise with healing in its wings.",
+  "ref": "From Malachi 4:2",
+  "checked": true,
+  "source": "biblehub.com/bsb, 26 Nov 2026; partial verse"
+ },
+ {
+  "slug": "psalm-147-3",
+  "title": "When the heart|is broken too",
+  "verse": "He heals the brokenhearted and binds up their wounds.",
+  "ref": "Psalm 147:3",
+  "checked": true,
+  "source": "biblehub.com/bsb, 26 Nov 2026"
+ },
+ {
+  "slug": "luke-6-19",
+  "title": "When you need|to be near Him",
+  "verse": "The entire crowd was trying to touch Him, because power was coming from Him and healing them all.",
+  "ref": "Luke 6:19",
+  "checked": true,
+  "source": "biblehub.com/bsb, 26 Nov 2026"
+ },
+ {
+  "slug": "galatians-6-9",
+  "title": "When you are tired|of praying",
+  "verse": "Let us not grow weary in well-doing, for in due time we will reap a harvest if we do not give up.",
+  "ref": "Galatians 6:9",
+  "checked": true,
+  "source": "biblehub.com/bsb, 26 Nov 2026"
+ }
 ]
