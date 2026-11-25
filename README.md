@@ -43,8 +43,15 @@ Read it aloud. It is what God has said.
 
 There is a free prayer for tonight at the link in my profile. Keep seeing your doctor.
 
-#Jesus #healing #prayer #Bible #faith
+<five hashtags: see "Hashtags" below>
 ```
+
+### Hashtags (set 26 November 2026, at Graham's request: "for maximum impact")
+Instagram allows five. They do not widen reach (Mosseri); they tell Instagram what the post is about and help it appear in hashtag search. So every post gets five chosen for that post, never one block pasted on every post:
+1. `#HowToPrayForTheSick` first on every post: the account's own tag, so one tap shows everything.
+2. Two for the kind of post: prayer cards `#PrayerForHealing #HealingPrayer`; single verses `#HealingScripture #BibleVerse`.
+3. Two for that post's topic, words a person would really search, for example `#JesusHeals`, `#GodHeals`, `#ByHisStripes`, `#JehovahRapha`, `#PrayForTheSick`, `#LayingOnOfHands`, `#WordOfGod`, `#Psalms`, `#PraiseGod`, `#TheCross`, `#HolySpirit`, `#HowToPray`, `#ChristianEncouragement`.
+Write each tag in capitals at the start of each word (screen readers read them better). No tag that claims a healing (`#Healed`, `#Miracle`, `#Testimony`) unless Graham approves that post. No duplicates. Exactly five.
 
 A Story has no caption. It carries a link sticker to `https://howtoprayforthesickandexpectamiracle.com/?utm_source=instagram&utm_medium=story#for-you`.
 
