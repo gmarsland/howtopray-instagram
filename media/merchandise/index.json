@@ -1,0 +1,371 @@
+[
+ {
+  "group": "Wear",
+  "name": "Heavyweight T-Shirt, navy",
+  "note": "",
+  "parts": [
+   {
+    "label": "Front",
+    "px": "4500 x 5400",
+    "preview": "media/merchandise/previews/heavyweight-t-shirt-navy-0.jpg",
+    "print_file": "media/merchandise/print-files/tee-front-15x18.png"
+   },
+   {
+    "label": "Back",
+    "px": "4500 x 5400",
+    "preview": "media/merchandise/previews/heavyweight-t-shirt-navy-1.jpg",
+    "print_file": "media/merchandise/print-files/tee-back-15x18.png"
+   }
+  ],
+  "fourthwall_id": "b0e040b2",
+  "price_usd": "$45"
+ },
+ {
+  "group": "Wear",
+  "name": "Heavyweight T-Shirt in Ivory",
+  "note": "",
+  "parts": [
+   {
+    "label": "Front",
+    "px": "4500 x 5400",
+    "preview": "media/merchandise/previews/heavyweight-t-shirt-in-ivory-0.jpg",
+    "print_file": "media/merchandise/print-files/tee-ivory-front-15x18.png"
+   },
+   {
+    "label": "Back",
+    "px": "4500 x 5400",
+    "preview": "media/merchandise/previews/heavyweight-t-shirt-in-ivory-1.jpg",
+    "print_file": "media/merchandise/print-files/tee-ivory-back-15x18.png"
+   }
+  ],
+  "fourthwall_id": "29e31494",
+  "price_usd": "$45"
+ },
+ {
+  "group": "Wear",
+  "name": "Women's Relaxed T-Shirt",
+  "note": "Same files as the navy tee",
+  "parts": [
+   {
+    "label": "Front",
+    "px": "4500 x 5400",
+    "preview": "media/merchandise/previews/womens-relaxed-t-shirt-0.jpg",
+    "print_file": "media/merchandise/print-files/tee-front-15x18.png"
+   },
+   {
+    "label": "Back",
+    "px": "4500 x 5400",
+    "preview": "media/merchandise/previews/womens-relaxed-t-shirt-1.jpg",
+    "print_file": "media/merchandise/print-files/tee-back-15x18.png"
+   }
+  ],
+  "fourthwall_id": "2ac42af4",
+  "price_usd": "$42"
+ },
+ {
+  "group": "Wear",
+  "name": "Kids' T-Shirt",
+  "note": "",
+  "parts": [
+   {
+    "label": "Front",
+    "px": "3000 x 3600",
+    "preview": "media/merchandise/previews/kids-t-shirt-0.jpg",
+    "print_file": "media/merchandise/print-files/kids-front-10x12.png"
+   }
+  ],
+  "fourthwall_id": "62822f81",
+  "price_usd": "$24"
+ },
+ {
+  "group": "Wear",
+  "name": "Heavyweight Hoodie",
+  "note": "",
+  "parts": [
+   {
+    "label": "Front",
+    "px": "3300 x 3300",
+    "preview": "media/merchandise/previews/heavyweight-hoodie-0.jpg",
+    "print_file": "media/merchandise/print-files/hood-front-11x11.png"
+   },
+   {
+    "label": "Back",
+    "px": "4500 x 5400",
+    "preview": "media/merchandise/previews/heavyweight-hoodie-1.jpg",
+    "print_file": "media/merchandise/print-files/hood-back-15x18.png"
+   }
+  ],
+  "fourthwall_id": "f030d722",
+  "price_usd": "$79"
+ },
+ {
+  "group": "Wear",
+  "name": "Heavyweight Crew Sweatshirt in Bone",
+  "note": "",
+  "parts": [
+   {
+    "label": "Front (over the heart)",
+    "px": "4500 x 5400",
+    "preview": "media/merchandise/previews/heavyweight-crew-sweatshirt-in-bone-0.jpg",
+    "print_file": "media/merchandise/print-files/crew-front-15x18-emblem-left-chest.png"
+   },
+   {
+    "label": "Back",
+    "px": "4500 x 5400",
+    "preview": "media/merchandise/previews/heavyweight-crew-sweatshirt-in-bone-1.jpg",
+    "print_file": "media/merchandise/print-files/crew-back-15x18.png"
+   }
+  ],
+  "fourthwall_id": "3d589fa8",
+  "price_usd": "$69"
+ },
+ {
+  "group": "Wear",
+  "name": "Embroidered Cap",
+  "note": "",
+  "parts": [
+   {
+    "label": "Front, embroidery",
+    "px": "1650 x 600",
+    "preview": "media/merchandise/previews/embroidered-cap-0.jpg",
+    "print_file": "media/merchandise/print-files/hat-front-5.5x2.png"
+   }
+  ],
+  "fourthwall_id": "e3c3d075",
+  "price_usd": "$35"
+ },
+ {
+  "group": "Wear",
+  "name": "Embroidered Beanie",
+  "note": "",
+  "parts": [
+   {
+    "label": "Cuff, embroidery",
+    "px": "1500 x 525",
+    "preview": "media/merchandise/previews/embroidered-beanie-0.jpg",
+    "print_file": "media/merchandise/print-files/beanie-front-5x1.75.png"
+   }
+  ],
+  "fourthwall_id": "a987a8f6",
+  "price_usd": "$32"
+ },
+ {
+  "group": "Carry and home",
+  "name": "Knitted Blessing Blanket",
+  "note": "Numbers 6:24",
+  "parts": [
+   {
+    "label": "Knitted design",
+    "px": "4000 x 5600",
+    "preview": "media/merchandise/previews/knitted-blessing-blanket-0.jpg",
+    "print_file": "media/merchandise/print-files/blanket-knit-40x56.png"
+   }
+  ],
+  "fourthwall_id": "e0840480",
+  "price_usd": "$69 to $99"
+ },
+ {
+  "group": "Carry and home",
+  "name": "Mug, 11 oz and 15 oz",
+  "note": "",
+  "parts": [
+   {
+    "label": "Wrap",
+    "px": "2700 x 1050",
+    "preview": "media/merchandise/previews/mug-11-oz-and-15-oz-0.jpg",
+    "print_file": "media/merchandise/print-files/mug-11oz-wrap-9x3.5.png"
+   }
+  ],
+  "fourthwall_id": "c2dcc5f6",
+  "price_usd": "$20 / $24"
+ },
+ {
+  "group": "Carry and home",
+  "name": "Insulated Water Bottle",
+  "note": "",
+  "parts": [
+   {
+    "label": "Wrap",
+    "px": "2556 x 1580",
+    "preview": "media/merchandise/previews/insulated-water-bottle-0.jpg",
+    "print_file": "media/merchandise/print-files/bottle-wrap-8.52x5.27.png"
+   }
+  ],
+  "fourthwall_id": "01bb03b7",
+  "price_usd": "$38"
+ },
+ {
+  "group": "Carry and home",
+  "name": "Organic Cotton Tote",
+  "note": "",
+  "parts": [
+   {
+    "label": "Side one",
+    "px": "3000 x 3000",
+    "preview": "media/merchandise/previews/organic-cotton-tote-0.jpg",
+    "print_file": "media/merchandise/print-files/tote-front-10x10.png"
+   },
+   {
+    "label": "Side two",
+    "px": "3000 x 3000",
+    "preview": "media/merchandise/previews/organic-cotton-tote-1.jpg",
+    "print_file": "media/merchandise/print-files/tote-back-10x10.png"
+   }
+  ],
+  "fourthwall_id": "46823946",
+  "price_usd": "$44"
+ },
+ {
+  "group": "Carry and home",
+  "name": "Round Sticker",
+  "note": "",
+  "parts": [
+   {
+    "label": "Sticker",
+    "px": "900 x 900",
+    "preview": "media/merchandise/previews/round-sticker-0.jpg",
+    "print_file": "media/merchandise/print-files/12-sticker-round-7-6cm.png"
+   }
+  ],
+  "fourthwall_id": "c16c6e75",
+  "price_usd": "$6"
+ },
+ {
+  "group": "Paper",
+  "name": "Poster: I am willing",
+  "note": "Mark 1:40-41",
+  "parts": [
+   {
+    "label": "Poster",
+    "px": "5400 x 7200",
+    "preview": "media/merchandise/previews/poster-i-am-willing-0.jpg",
+    "print_file": "media/merchandise/print-files/poster-mark-1-40-41-18x24.png"
+   }
+  ],
+  "fourthwall_id": "78381475",
+  "price_usd": "$28 / $38"
+ },
+ {
+  "group": "Paper",
+  "name": "Poster: He heals all your diseases",
+  "note": "Psalm 103:2-3",
+  "parts": [
+   {
+    "label": "Poster",
+    "px": "5400 x 7200",
+    "preview": "media/merchandise/previews/poster-he-heals-all-your-diseases-0.jpg",
+    "print_file": "media/merchandise/print-files/poster-psalm-103-2-3-18x24.png"
+   }
+  ],
+  "fourthwall_id": "db49f44f",
+  "price_usd": "$28 / $38"
+ },
+ {
+  "group": "Paper",
+  "name": "Poster: For I am the LORD who heals you",
+  "note": "Exodus 15:26",
+  "parts": [
+   {
+    "label": "Poster",
+    "px": "5400 x 7200",
+    "preview": "media/merchandise/previews/poster-for-i-am-the-lord-who-heals-you-0.jpg",
+    "print_file": "media/merchandise/print-files/poster-exodus-15-26-18x24.png"
+   }
+  ],
+  "fourthwall_id": "90f15543",
+  "price_usd": "$28 / $38"
+ },
+ {
+  "group": "Paper",
+  "name": "Poster: We love because He first loved us",
+  "note": "1 John 4:19",
+  "parts": [
+   {
+    "label": "Poster",
+    "px": "5400 x 7200",
+    "preview": "media/merchandise/previews/poster-we-love-because-he-first-loved-us-0.jpg",
+    "print_file": "media/merchandise/print-files/poster-1-john-4-19-18x24.png"
+   }
+  ],
+  "fourthwall_id": "b3c3ea89",
+  "price_usd": "$28 / $38"
+ },
+ {
+  "group": "Paper",
+  "name": "Greeting Card: Praying for you",
+  "note": "Jeremiah 17:14",
+  "parts": [
+   {
+    "label": "Front",
+    "px": "1500 x 2100",
+    "preview": "media/merchandise/previews/greeting-card-praying-for-you-0.jpg",
+    "print_file": "media/merchandise/print-files/card-front-5x7.png"
+   },
+   {
+    "label": "Inside left",
+    "px": "1500 x 2100",
+    "preview": "media/merchandise/previews/greeting-card-praying-for-you-1.jpg",
+    "print_file": "media/merchandise/print-files/card-inside1-5x7.png"
+   },
+   {
+    "label": "Inside right",
+    "px": "1500 x 2100",
+    "preview": "media/merchandise/previews/greeting-card-praying-for-you-2.jpg",
+    "print_file": "media/merchandise/print-files/card-inside2-5x7.png"
+   },
+   {
+    "label": "Back",
+    "px": "1500 x 2100",
+    "preview": "media/merchandise/previews/greeting-card-praying-for-you-3.jpg",
+    "print_file": "media/merchandise/print-files/card-back-5x7.png"
+   }
+  ],
+  "fourthwall_id": "5afe1643",
+  "price_usd": "$7"
+ },
+ {
+  "group": "Paper",
+  "name": "Hand-out Card: Someone prayed for you today",
+  "note": "1 Peter 5:7",
+  "parts": [
+   {
+    "label": "Front",
+    "px": "1227 x 1842",
+    "preview": "media/merchandise/previews/hand-out-card-someone-prayed-for-you-today-0.jpg",
+    "print_file": "media/merchandise/print-files/postcard-front-4.09x6.14.png"
+   }
+  ],
+  "fourthwall_id": "7c0b40aa",
+  "price_usd": "$5"
+ },
+ {
+  "group": "Paper",
+  "name": "Prayer Journal",
+  "note": "Philippians 4:6",
+  "parts": [
+   {
+    "label": "Cover",
+    "px": "1299 x 2178",
+    "preview": "media/merchandise/previews/prayer-journal-0.jpg",
+    "print_file": "media/merchandise/print-files/journal-cover-4.33x7.26.png"
+   }
+  ],
+  "fourthwall_id": "78b73b63",
+  "price_usd": "$28"
+ },
+ {
+  "group": "Not in the store yet",
+  "name": "Phone case (iPhone and Samsung)",
+  "note": "Psalm 107:20. Graham to add in Fourthwall",
+  "parts": [
+   {
+    "label": "Case",
+    "px": "2000 x 3600",
+    "preview": "media/merchandise/previews/phone-case-0.jpg",
+    "print_file": "media/merchandise/print-files/phone-case-navy-2000x3600.png"
+   }
+  ],
+  "fourthwall_id": "",
+  "price_usd": ""
+ }
+]
