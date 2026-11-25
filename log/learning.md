@@ -12,3 +12,5 @@ Nothing posted yet. The first posts go out on the day the website goes live: a S
 (none yet)
 
 ## Run notes
+- 2026-11-26 05:53 (setup chat, not the daily task): the run fired at 05:30 at Graham's request finished at 05:34 without scheduling anything or pushing a note. Cause not visible from the setup chat. So that the first Story was not missed, the setup chat scheduled the first two queue items by hand, exactly as queued: story-mark-1-41 at 07:30 today (Buffer 6b072e8bf5be12bac95f8b4b) and week-1-when-you-wonder-if-he-is-willing at 19:30 today (Buffer 6b072e8ba8c1747ec750b3d7). Both are in log/scheduled.json. The next run starts from queue item 3. If any step of a run fails, write the exact error here and in the run's summary.
+
