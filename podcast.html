@@ -48,6 +48,20 @@
 .pc-preview { background: var(--warm); border-bottom: 1px solid var(--rule); }
 .pc-preview p { margin: 0; padding: 0.8rem 0; font-size: 0.95rem; }
 .finder .pc-count { color: var(--muted); font-family: var(--sans); font-size: 0.95rem; }
+.pc-choose { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.6rem; }
+@media (min-width: 40rem) { .pc-choose { grid-template-columns: 1fr 1fr; } }
+.pc-choice { display: flex; align-items: center; min-height: 48px; padding: 0.75rem 1rem; border: 1px solid var(--rule); border-radius: 8px;
+  background: var(--paper); color: var(--title); font-family: var(--serif); font-size: 1.1rem; line-height: 1.3; text-decoration: none; }
+.pc-choice:hover { border-color: var(--mark); }
+.pc-choice[aria-pressed="true"] { background: var(--btn-bg); color: var(--btn-fg); border-color: var(--btn-bg); }
+.pc-foryou { background: var(--paper); border: 1px solid var(--rule); border-radius: 8px; padding: 1.2rem 1.1rem; scroll-margin-top: 1rem; }
+.pc-foryou h3 { margin: 0 0 0.9rem; }
+.pc-start { border-left: 3px solid var(--mark); padding-left: 1rem; }
+.pc-flag { font-family: var(--sans); font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--mark); margin: 0 0 0.2rem; }
+.pc-st { font-family: var(--serif); font-size: 1.3rem; line-height: 1.3; margin: 0 0 0.4rem; }
+.pc-st a { color: var(--title); }
+.pc-start audio { width: 100%; margin: 0.4rem 0; }
+.pc-then { margin: 1.2rem 0 0.4rem; font-weight: 700; }
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "PodcastSeries", "name": "How to Pray for the Sick and Expect a Miracle", "url": "https://howtoprayforthesickandexpectamiracle.com/podcast", "description": "Short conversations from the book by Graham Marsland, each for someone in particular: the one who is sick, a parent, a carer, someone still waiting. A story from the Bible, a Scripture to stand on, and a prayer you can pray aloud. Free to listen.", "image": "https://howtoprayforthesickandexpectamiracle.com/podcast/media/covers/1000/show.jpg", "author": {"@type": "Person", "name": "Graham Marsland"}, "inLanguage": "en"}</script>
 </head>
@@ -61,16 +75,54 @@
 
 <section class="pagehead"><div class="wrap narrow"><h1>The podcast</h1><p class="lede">One question at a time, for the person asking it.</p></div></section>
 <section class="band"><div class="wrap narrow stack-lg"><div class="pc-intro"><img src="/podcast/media/covers/1000/show.jpg" width="1000" height="1000" alt="The podcast cover: the gold sun and cross on navy, with the words Jesus is the healer."><p>Each episode is for someone in particular: the one who is sick, a frightened parent, a tired carer, someone who has never prayed for anyone, someone still waiting, someone not sure God still heals, someone who leads others, someone getting to know Jesus. It answers one question that person is already asking, from the book and the Bible, and ends with a prayer you can pray aloud. Start with the one that is yours.</p></div><div class="pc-who"><p>Each episode opens and closes with Graham. The two voices in between are made with artificial intelligence. They are not Graham, and they have no stories of their own. Everything they say comes from the book and from the Bible. Graham listens to every episode before it is put here.</p></div></div></section>
-<section class="band mist"><div class="wrap narrow stack"><h2>Find the episodes for you</h2><ul class="finder">
-<li><a href="#lens-a">When you are the one who is sick <span class="pc-count">(2 episodes)</span></a></li>
-<li><a href="#lens-b">When your child is sick <span class="pc-count">(2 episodes)</span></a></li>
-<li><a href="#lens-c">When you are caring for someone <span class="pc-count">(2 episodes)</span></a></li>
-<li><a href="#lens-d">When you have never prayed for anyone <span class="pc-count">(2 episodes)</span></a></li>
-<li><a href="#lens-e">When you are still waiting <span class="pc-count">(1 episode)</span></a></li>
-<li><a href="#lens-f">When you are not sure God still heals <span class="pc-count">(1 episode)</span></a></li>
-<li><a href="#lens-g">When you lead others <span class="pc-count">(1 episode)</span></a></li>
-<li><a href="#lens-h">When you are getting to know Jesus <span class="pc-count">(1 episode)</span></a></li>
-</ul></div></section>
+<section class="band mist" id="choose"><div class="wrap narrow stack"><h2>What describes your situation best?</h2><p class="muted">Choose the answer closest to yours, and the episodes for you appear here.</p><ul class="pc-choose"><li><a class="pc-choice" href="#lens-a" data-for="a" aria-pressed="false">I am sick</a></li><li><a class="pc-choice" href="#lens-b" data-for="b" aria-pressed="false">My child is sick</a></li><li><a class="pc-choice" href="#lens-c" data-for="c" aria-pressed="false">I am caring for someone who is sick</a></li><li><a class="pc-choice" href="#lens-d" data-for="d" aria-pressed="false">I have never prayed for anyone</a></li><li><a class="pc-choice" href="#lens-e" data-for="e" aria-pressed="false">I have prayed, and I am still waiting</a></li><li><a class="pc-choice" href="#lens-f" data-for="f" aria-pressed="false">I am not sure God still heals today</a></li><li><a class="pc-choice" href="#lens-g" data-for="g" aria-pressed="false">I lead others: a church, a group or a team</a></li><li><a class="pc-choice" href="#lens-h" data-for="h" aria-pressed="false">I am getting to know Jesus</a></li></ul><div class="pc-foryou" id="foryou" aria-live="polite" hidden></div></div></section><script>
+(function () {
+  var P = {"a": {"lens": "When you are the one who is sick", "episodes": [{"n": 1, "slug": "does-god-want-me-well", "title": "Does God Want Me Well?", "desc": "At Marah the water was too bitter to drink, and there God told His people one of His names: “I am the LORD who heals you.” For anyone who is sick and wonders whether God wants them well.", "min": 11, "thumb": "/podcast/media/covers/400/episode-01.jpg", "audio": "https://howtopray-podcast.vercel.app/podcast/media/audio/episode-01.mp3", "pic": "a piece of wood and the water at Marah"}, {"n": 9, "slug": "what-do-i-hold-on-to-when-the-symptoms-shout", "title": "What Do I Hold On To When the Symptoms Shout?", "desc": "A Roman centurion told Jesus, “just say the word.” For anyone whose symptoms seem louder than God's promise.", "min": 16, "thumb": "/podcast/media/covers/400/episode-09.jpg", "audio": "https://howtopray-podcast.vercel.app/podcast/media/audio/episode-09.mp3", "pic": "an open Bible (He sent His word)"}]}, "b": {"lens": "When your child is sick", "episodes": [{"n": 2, "slug": "how-do-i-pray-for-my-child-when-i-am-frightened", "title": "How Do I Pray for My Child When I Am Frightened?", "desc": "A father brought his son to Jesus and cried out, “I do believe; help my unbelief!” For every parent who is frightened for their child.", "min": 13, "thumb": "/podcast/media/covers/400/episode-02.jpg", "audio": "https://howtopray-podcast.vercel.app/podcast/media/audio/episode-02.mp3", "pic": "a small flame (“I do believe; help my unbelief!”)"}, {"n": 10, "slug": "does-god-love-my-child-more-than-i-do", "title": "Does God Love My Child More Than I Do?", "desc": "If you know how to give good gifts to your children, how much more will your Father in heaven? For every parent of a sick child.", "min": 14, "thumb": "/podcast/media/covers/400/episode-10.jpg", "audio": "https://howtopray-podcast.vercel.app/podcast/media/audio/episode-10.mp3", "pic": "bread and a fish (a father’s good gifts)"}]}, "c": {"lens": "When you are caring for someone", "episodes": [{"n": 3, "slug": "what-do-i-say-when-i-pray-for-someone-i-love", "title": "What Do I Say When I Pray for Someone I Love?", "desc": "A simple, kind way to pray for someone you love, one step at a time, and a prayer Graham prayed for his friend in a car.", "min": 19, "thumb": "/podcast/media/covers/400/episode-03.jpg", "audio": "https://howtopray-podcast.vercel.app/podcast/media/audio/episode-03.mp3", "pic": "a flask of oil (James 5:14)"}, {"n": 11, "slug": "how-do-i-love-them-well-while-they-are-sick", "title": "How Do I Love Them Well While They Are Sick?", "desc": "Jesus took a blind man by the hand and led him out of the village. For anyone caring for someone they love.", "min": 11, "thumb": "/podcast/media/covers/400/episode-11.jpg", "audio": "https://howtopray-podcast.vercel.app/podcast/media/audio/episode-11.mp3", "pic": "one person leading another by the hand"}]}, "d": {"lens": "When you have never prayed for anyone", "episodes": [{"n": 4, "slug": "is-it-really-my-place-to-pray-for-the-sick", "title": "Is It Really My Place to Pray for the Sick?", "desc": "Ananias was an ordinary follower of Jesus when God sent him to lay his hands on Saul. For anyone who thinks praying for the sick is only for pastors.", "min": 20, "thumb": "/podcast/media/covers/400/episode-04.jpg", "audio": "https://howtopray-podcast.vercel.app/podcast/media/audio/episode-04.mp3", "pic": "three people (every believer)"}, {"n": 12, "slug": "what-if-i-pray-and-look-foolish", "title": "What If I Pray and Look Foolish?", "desc": "On Mount Carmel, Elijah prayed in front of everyone. For anyone afraid of looking foolish if they pray for someone.", "min": 20, "thumb": "/podcast/media/covers/400/episode-12.jpg", "audio": "https://howtopray-podcast.vercel.app/podcast/media/audio/episode-12.mp3", "pic": "the altar and the fire on Carmel"}]}, "e": {"lens": "When you are still waiting", "episodes": [{"n": 5, "slug": "is-it-my-fault-i-am-still-sick", "title": "Is It My Fault I Am Still Sick?", "desc": "For anyone who has prayed and is still sick. Why a person who is still sick is never to blame, and why it is right to keep asking.", "min": 13, "thumb": "/podcast/media/covers/400/episode-05.jpg", "audio": "https://howtopray-podcast.vercel.app/podcast/media/audio/episode-05.mp3", "pic": "a sunrise (when you do not see it yet)"}]}, "f": {"lens": "When you are not sure God still heals", "episodes": [{"n": 6, "slug": "does-god-still-heal-today", "title": "Does God Still Heal Today?", "desc": "An honest account of a young woman in Perth, as the book tells it, and why every story like it points to Jesus.", "min": 15, "thumb": "/podcast/media/covers/400/episode-06.jpg", "audio": "https://howtopray-podcast.vercel.app/podcast/media/audio/episode-06.mp3", "pic": "one person walking against the crowd"}]}, "g": {"lens": "When you lead others", "episodes": [{"n": 7, "slug": "how-do-i-lead-my-church-to-pray-for-the-sick", "title": "How Do I Lead My Church to Pray for the Sick?", "desc": "Jesus sent seventy-two of His followers out two by two. A simple, kind way for a church or a small group to begin praying for the sick.", "min": 20, "thumb": "/podcast/media/covers/400/episode-07.jpg", "audio": "https://howtopray-podcast.vercel.app/podcast/media/audio/episode-07.mp3", "pic": "a road, and two people setting out"}]}, "h": {"lens": "When you are getting to know Jesus", "episodes": [{"n": 8, "slug": "what-is-jesus-like", "title": "What Is Jesus Like?", "desc": "Blind Bartimaeus kept calling out when the crowd told him to be quiet, and Jesus stopped. For anyone still finding out who Jesus is.", "min": 22, "thumb": "/podcast/media/covers/400/episode-08.jpg", "audio": "https://howtopray-podcast.vercel.app/podcast/media/audio/episode-08.mp3", "pic": "an eye (“let me see again”)"}]}};
+  var box = document.getElementById('foryou');
+  var links = Array.prototype.slice.call(document.querySelectorAll('.pc-choice'));
+  function esc(t) { var d = document.createElement('div'); d.textContent = t; return d.innerHTML; }
+  function show(k, scroll) {
+    var p = P[k]; if (!p) return;
+    links.forEach(function (a) { a.setAttribute('aria-pressed', a.getAttribute('data-for') === k ? 'true' : 'false'); });
+    var f = p.episodes[0], rest = p.episodes.slice(1);
+    var h = '<h3>For you: ' + esc(p.lens) + '</h3>';
+    h += '<div class="pc-start"><p class="pc-flag">Start here</p>';
+    h += '<p class="pc-st"><a href="/podcast/' + f.slug + '">' + esc(f.title) + '</a></p>';
+    h += '<p>' + esc(f.desc) + '</p>';
+    if (f.audio) h += '<audio controls preload="none" src="' + f.audio + '"></audio>';
+    h += '<p class="muted small">Episode ' + f.n + ' · ' + f.min + ' minutes · <a href="/podcast/' + f.slug + '">The episode page</a></p></div>';
+    if (rest.length) {
+      h += '<p class="pc-then">Then:</p><ul class="pc-list">';
+      rest.forEach(function (e) {
+        h += '<li><a href="/podcast/' + e.slug + '"><img src="' + e.thumb + '" width="88" height="88" loading="lazy" alt="Cover of Episode ' + e.n + ': ' + esc(e.pic) + '">' +
+             '<span><span class="pc-n">Episode ' + e.n + ' · ' + e.min + ' minutes</span><span class="pc-t">' + esc(e.title) + '</span><span class="pc-d">' + esc(e.desc) + '</span></span></a></li>';
+      });
+      h += '</ul>';
+    }
+    h += '<p class="small"><a href="#choose" class="pc-again">Choose a different answer</a></p>';
+    box.innerHTML = h; box.hidden = false;
+    try { localStorage.setItem('podcastFor', k); } catch (e) {}
+    if (history.replaceState) { try { history.replaceState(null, '', '#for-' + k); } catch (e) {} }
+    if (scroll) box.scrollIntoView({behavior: 'smooth', block: 'start'});
+  }
+  links.forEach(function (a) {
+    a.addEventListener('click', function (ev) { ev.preventDefault(); show(a.getAttribute('data-for'), true); });
+  });
+  box.addEventListener('click', function (ev) {
+    if (ev.target.classList && ev.target.classList.contains('pc-again')) {
+      ev.preventDefault(); box.hidden = true;
+      links.forEach(function (a) { a.setAttribute('aria-pressed', 'false'); });
+      try { localStorage.removeItem('podcastFor'); } catch (e) {}
+      if (history.replaceState) { try { history.replaceState(null, '', location.pathname); } catch (e) {} }
+      document.getElementById('choose').scrollIntoView({behavior: 'smooth', block: 'start'});
+    }
+  });
+  var m = /^#for-([a-h])$/.exec(location.hash);
+  if (m) { show(m[1], true); return; }
+  var saved = null; try { saved = localStorage.getItem('podcastFor'); } catch (e) {}
+  if (saved && P[saved]) show(saved, false);
+})();
+</script>
 <section class="band" id="lens-a"><div class="wrap narrow stack"><h2>When you are the one who is sick</h2><ul class="pc-list">
 <li><a href="/podcast/does-god-want-me-well"><img src="/podcast/media/covers/400/episode-01.jpg" width="88" height="88" loading="lazy" alt="Cover of Episode 1: a piece of wood and the water at Marah"><span><span class="pc-n">Episode 1 · 11 minutes</span><span class="pc-t">Does God Want Me Well?</span><span class="pc-d">At Marah the water was too bitter to drink, and there God told His people one of His names: “I am the LORD who heals you.” For anyone who is sick and wonders whether God wants them well.</span></span></a></li>
 <li><a href="/podcast/what-do-i-hold-on-to-when-the-symptoms-shout"><img src="/podcast/media/covers/400/episode-09.jpg" width="88" height="88" loading="lazy" alt="Cover of Episode 9: an open Bible (He sent His word)"><span><span class="pc-n">Episode 9 · 16 minutes</span><span class="pc-t">What Do I Hold On To When the Symptoms Shout?</span><span class="pc-d">A Roman centurion told Jesus, “just say the word.” For anyone whose symptoms seem louder than God&#x27;s promise.</span></span></a></li>
