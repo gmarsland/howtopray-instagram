@@ -1,7 +1,13 @@
 # What is working on howtoprayforthesick
 
 ## Latest
-Nothing posted yet. The first posts go out on the day the website goes live: a Story at 07:30 and a feed post at 19:30, Melbourne time.
+Updated 26 November 2026, 11:20 Melbourne (25 November, 19:20 US Eastern), by the daily task.
+- Posts out from the queue: 3, all on 26 November Melbourne (25 November Eastern): the carousel "When you wonder if He is willing", the Mark 1:41 Story, and the Psalm 103:3 verse post. None is 48 hours old yet, so there are no numbers for them; the first come on the run after 07:40 Melbourne on 28 November.
+- Baseline (not from the queue): one Reel posted directly on Instagram on 11 November reached 128 people (143 views), with 0 likes, comments, shares or saves, and 7.7 seconds average watch time.
+- Average reach by kind (carousel, verse, Story), by slot and by topic: not yet.
+- Best and weakest three: not yet.
+- Trend in reach per feed post (last 14 days against the 14 before): not yet.
+- Booked in Buffer: 9. Psalm 103:3 Story at 17:10 Melbourne on 26 November, then 08:00 Eastern each day through 30 November. Stories after 28 November are on hold until the Story link is fixed (see Run notes).
 
 ## Starting point (26 November 2026)
 - 27 posts ready: 4 carousels (the approved prayer cards), 9 single-verse posts, 14 Stories.
@@ -19,4 +25,11 @@ Nothing posted yet. The first posts go out on the day the website goes live: a S
 - 2026-11-26 06:10 (setup chat): the five card verses (Mark 1:41, 1 Peter 2:24, Mark 10:51, Hebrews 10:23, Hebrews 4:16), which were the first nine queue items before the queue was put in day order at 06:00, were checked word for word against the Berean Standard Bible line on biblehub.com (biblehub.com/bsb). All match; the only differences are the page's footnote markers.
 - 2026-11-26 07:05 (setup chat): Graham fixed one daily time: 08:00 US Eastern ("on their way to work"), the most populous US time zone, for both the Story and the feed post, every day. All nine booked posts moved to 08:00 Eastern, the first on 26 November (00:00 on 27 November in Melbourne), the ninth on 30 November. The times test is off; any other time is Graham's decision.
 - 2026-11-26 07:35 (setup chat): at Graham's request ("start now ... then at 5:10pm and then go to the normal schedule"), the first two queue items were published at once (07:33 Melbourne, 15:33 Eastern on 25 November): the carousel https://www.instagram.com/p/DgLZdhHnXK9/ and the Mark 1:41 Story. Psalm 103:3 (Story and feed) is a one-off at 17:10 Melbourne on 26 November. From exodus-15-26 on, everything is at the normal 08:00 Eastern: exodus on 26 November, matthew-14-14 on 27 November, the Jeremiah 17:14 Story on 28 November. The daily task must keep using 08:00 Eastern and never publish at once; these were one-off instructions from Graham.
+- 2026-11-26 11:20 Melbourne (daily task): website live (`misconfigured: false`). **Story link check failed**: the production deployment (dpl_ECffE5kGeKXCxc1QAsGwjPxHc7jw) answers 200 at `/`, but the page no longer contains `id='for-you'`. The home page has been rebuilt; the "If you are sick: Is God willing?" section (`id='for-you'`) is now on `/pray`, which now exists and answers 200. So, by step 2, no Stories were scheduled this run, feed posts only, and Graham was told.
+  - Held Stories: story-1-peter-2-24 (goes with 29 November) and story-hebrews-13-8 (30 November). Once the link is fixed, book each held Story on the same day and time as its feed post if that is still in the future; otherwise skip it and carry on, so a day never has two Stories.
+  - The four Stories already booked (Psalm 103:3, Exodus 15:26, Matthew 14:14, Jeremiah 17:14) still carry the `/#for-you` link. It lands at the top of the home page, not on the prayer. They were left as booked.
+  - Possible fix, for Graham to decide: Story link `https://howtoprayforthesickandexpectamiracle.com/pray?utm_source=instagram&utm_medium=story#for-you`, and step 2 of the README checks `/pray` for `id='for-you'`. Not changed by the task.
+- 2026-11-26 11:20 (daily task), reconcile: the psalm-103-3 feed post went out at 07:38 Melbourne on 26 November (20:38 UTC on 25 November), not at 17:10 as logged; Buffer shows its time was changed before this run. Log corrected. Its Story is still booked for 17:10 Melbourne. No errors in Buffer. One older sent post in Buffer (a Reel posted directly on Instagram on 11 November) is not from the queue; it is recorded in results.csv as a baseline only.
+- 2026-11-26 11:20 (daily task), booked three feed posts at 08:00 Eastern: jeremiah-17-14 on 28 November (Buffer 6b077b2dd4eda4b659c1efe4), week-2-when-you-need-something-to-stand-on on 29 November (6b077b3cd4eda4b659c20291), hebrews-13-8 on 30 November (6b077b3db8e2338b8575fe6a). 9 booked now. The queue holds 49 unbooked items, so no new verses were needed.
+- 2026-11-26 11:20 (daily task), environment: the `add_repo` tool was not offered in this session, but the repository was already attached and cloned with push access, so this was not a failure. This environment's proxy refuses raw.githubusercontent.com (403), so the picture addresses were checked by confirming each file is committed and pushed on `main` instead.
 
