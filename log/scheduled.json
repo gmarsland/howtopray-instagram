@@ -41,8 +41,8 @@
   "kind": "story",
   "slot": "morning",
   "due_at": "2026-11-26T08:00:00-05:00",
-  "status": "scheduled",
-  "note": "08:00 Eastern from here on"
+  "status": "sent",
+  "note": "08:00 Eastern; Buffer shows it sent at 13:03:22 UTC on 26 Nov (08:03 Eastern, 00:03 Melbourne 27 Nov)"
  },
  {
   "queue_id": "exodus-15-26",
@@ -50,8 +50,8 @@
   "kind": "verse",
   "slot": "evening",
   "due_at": "2026-11-26T08:00:00-05:00",
-  "status": "scheduled",
-  "note": "08:00 Eastern from here on"
+  "status": "sent",
+  "note": "08:00 Eastern; Buffer shows it sent at 13:03:39 UTC on 26 Nov (08:03 Eastern, 00:03 Melbourne 27 Nov)"
  },
  {
   "queue_id": "story-matthew-14-14",
@@ -112,5 +112,23 @@
   "due_at": "2026-11-30T08:00:00-05:00",
   "status": "scheduled",
   "note": "daily task 26 Nov 11:20 Melbourne; feed only (Story link check failed)"
+ },
+ {
+  "queue_id": "story-hebrews-13-8",
+  "buffer_post_id": "6b08cca870e2a88e2ce09b27",
+  "kind": "story",
+  "slot": "morning",
+  "due_at": "2026-11-30T08:00:00-05:00",
+  "status": "scheduled",
+  "note": "daily task 27 Nov 11:19 Melbourne; held Story booked with its feed post; Hebrews 13:8 checked against biblehub.com BSB line; link /pray?utm_source=instagram&utm_medium=story"
+ },
+ {
+  "queue_id": "story-psalm-107-20",
+  "buffer_post_id": "6b08ccae9131f7416c5b9540",
+  "kind": "story",
+  "slot": "morning",
+  "due_at": "2026-12-01T08:00:00-05:00",
+  "status": "scheduled",
+  "note": "daily task 27 Nov 11:19 Melbourne; Psalm 107:20 checked against biblehub.com BSB line; its feed post (psalm-107-20) waits for room in Buffer; link /pray?utm_source=instagram&utm_medium=story"
  }
 ]
