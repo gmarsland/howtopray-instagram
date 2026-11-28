@@ -59,7 +59,8 @@
   "kind": "story",
   "slot": "morning",
   "due_at": "2026-11-27T08:00:00-05:00",
-  "status": "scheduled"
+  "status": "sent",
+  "note": "08:00 Eastern; Buffer shows it sent at 13:04:27 UTC on 27 Nov (08:04 Eastern, 00:04 Melbourne 28 Nov)"
  },
  {
   "queue_id": "matthew-14-14",
@@ -67,7 +68,8 @@
   "kind": "verse",
   "slot": "evening",
   "due_at": "2026-11-27T08:00:00-05:00",
-  "status": "scheduled"
+  "status": "sent",
+  "note": "08:00 Eastern; Buffer shows it sent at 13:04:30 UTC on 27 Nov (08:04 Eastern, 00:04 Melbourne 28 Nov)"
  },
  {
   "queue_id": "story-jeremiah-17-14",
@@ -130,5 +132,23 @@
   "due_at": "2026-12-01T08:00:00-05:00",
   "status": "scheduled",
   "note": "daily task 27 Nov 11:19 Melbourne; Psalm 107:20 checked against biblehub.com BSB line; its feed post (psalm-107-20) waits for room in Buffer; link /pray?utm_source=instagram&utm_medium=story"
+ },
+ {
+  "queue_id": "psalm-107-20",
+  "buffer_post_id": "6b0a1e15eab081a3f50b89b3",
+  "kind": "verse",
+  "slot": "evening",
+  "due_at": "2026-12-01T08:00:00-05:00",
+  "status": "scheduled",
+  "note": "daily task 28 Nov 11:19 Melbourne; Psalm 107:20 checked word for word against the Berean Standard Bible line on biblehub.com/psalms/107-20.htm (exact match); goes with story-psalm-107-20"
+ },
+ {
+  "queue_id": "story-mark-16-18",
+  "buffer_post_id": "6b0a1e1623fb5b770004b005",
+  "kind": "story",
+  "slot": "morning",
+  "due_at": "2026-12-02T08:00:00-05:00",
+  "status": "scheduled",
+  "note": "daily task 28 Nov 11:19 Melbourne; From Mark 16:18 checked word for word against the Berean Standard Bible line on biblehub.com/mark/16-18.htm (matches; first word capitalised, closing quotation mark of the speech left off); its feed post (mark-16-18) waits for room in Buffer; link /pray?utm_source=instagram&utm_medium=story"
  }
 ]
